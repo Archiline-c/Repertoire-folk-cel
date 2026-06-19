@@ -1,0 +1,152 @@
+/* ── Global ── */
+body {
+  background-color: #1a1a2e;
+  color: #e2e8f0;
+  font-family: Verdana, sans-serif;
+}
+
+/* ── En-tête ── */
+#entete {
+  padding: 20px;
+  border-bottom: 1px solid #444;
+}
+
+/* ── Sections ── */
+#section-connexion,
+#section-recherche,
+#section-liste,
+#section-formulaire {
+  padding: 20px;
+}
+
+#section-connexion {
+  border-bottom: 1px solid #444;
+}
+
+.texte-aide {
+  font-size: 12px;
+  color: #aaaaaa;
+  max-width: 480px;
+}
+
+#statut-connexion {
+  font-size: 13px;
+  color: #e67e7e;
+  margin-top: 6px;
+}
+
+#statut-connexion.connecte {
+  color: #7ee2a8;
+}
+
+/* ── Recherche ── */
+#champ-recherche {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* ── Filtres ── */
+#filtres-statut,
+#filtres-danse {
+  margin-bottom: 12px;
+}
+
+.bouton-filtre {
+  padding: 6px 14px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  background-color: #2a2a4a;
+  color: #e2e8f0;
+  border: 1px solid #555;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.bouton-filtre.actif {
+  background-color: #c9a96e;
+  color: #1a1a2e;
+  border-color: #c9a96e;
+}
+
+/* ── Compteur de résultats ── */
+#compteur-resultats {
+  font-size: 13px;
+  color: #aaaaaa;
+}
+
+/* ── Liste des morceaux ── */
+#liste-morceaux {
+  list-style: none;
+  padding: 0;
+}
+
+.carte-morceau {
+  background-color: #2a2a4a;
+  border: 1px solid #444;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.carte-titre {
+  font-size: 16px;
+  font-weight: bold;
+  color: #c9a96e;
+}
+
+.carte-details {
+  font-size: 13px;
+  color: #aaaaaa;
+  margin-top: 4px;
+}
+
+.carte-actions {
+  margin-top: 8px;
+}
+
+.carte-actions button {
+  margin-right: 8px;
+}
+
+.message-erreur {
+  color: #e67e7e;
+  list-style: none;
+}
+
+/* ── Formulaire ── */
+.champ-saisie {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 12px;
+  background-color: #2a2a4a;
+  border: 1px solid #555;
+  color: #e2e8f0;
+}
+
+.bouton-principal {
+  padding: 8px 20px;
+  background-color: #c9a96e;
+  color: #1a1a2e;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.bouton-secondaire {
+  padding: 6px 14px;
+  background-color: transparent;
+  color: #e2e8f0;
+  border: 1px solid #c9a96e;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.bouton-danger {
+  padding: 6px 14px;
+  background-color: transparent;
+  color: #e67e7e;
+  border: 1px solid #e67e7e;
+  cursor: pointer;
+  border-radius: 4px;
+}

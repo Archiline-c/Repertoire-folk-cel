@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Répertoire</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- En-tête -->
+  <div id="entete">
+    <h1>Mes morceaux de harpe</h1>
+    <p>Mon répertoire : c'est parti pour jouer !</p>
+  </div>
+
+  <!-- Connexion GitHub : nécessaire uniquement pour ajouter/modifier/supprimer -->
+  <div id="section-connexion">
+    <h2>Connexion GitHub</h2>
+    <p class="texte-aide">
+      Le token n'est jamais enregistré : il reste seulement en mémoire dans
+      cette page, pour la durée de la session. Tu devras le ressaisir si tu
+      recharges la page.
+    </p>
+    <label for="champ-token">Token GitHub (Personal Access Token)</label>
+    <input class="champ-saisie" id="champ-token" type="password" placeholder="ghp_...">
+    <button class="bouton-principal" id="bouton-connexion" type="button">Se connecter</button>
+    <p id="statut-connexion">Non connecté — lecture seule</p>
+  </div>
+
+  <!-- Recherche -->
+  <div id="section-recherche">
+    <input class="champ-saisie" id="champ-recherche" type="text" placeholder="Rechercher un titre ou un artiste...">
+  </div>
+
+  <!-- Liste des morceaux et filtres -->
+  <div id="section-liste">
+    <h2>Liste des morceaux</h2>
+
+    <p>Filtrer par statut :</p>
+    <div id="filtres-statut">
+      <button class="bouton-filtre f-statut actif" data-filtre="tous">Tous</button>
+      <button class="bouton-filtre f-statut" data-filtre="À apprendre">À apprendre</button>
+      <button class="bouton-filtre f-statut" data-filtre="En apprentissage">En apprentissage</button>
+      <button class="bouton-filtre f-statut" data-filtre="Maîtrisé">Maîtrisé</button>
+    </div>
+
+    <p>Filtrer par danse :</p>
+    <div id="filtres-danse">
+      <button class="bouton-filtre f-danse actif" data-filtre="tous">Tous</button>
+    </div>
+    <!-- Les boutons de danse sont générés automatiquement par script.js
+         à partir des danses présentes dans le JSON. -->
+
+    <p id="compteur-resultats"></p>
+
+    <ul id="liste-morceaux"></ul>
+  </div>
+
+  <!-- Formulaire d'ajout / édition -->
+  <div id="section-formulaire">
+    <h2 id="titre-formulaire">Ajouter un morceau</h2>
+    <form id="formulaire-ajout-morceau">
+
+      <!-- Champ caché : vide pour un ajout, rempli avec l'id du morceau en cours d'édition -->
+      <input type="hidden" id="champ-id-edition" value="">
+
+      <label for="champ-titre">Titre</label>
+      <input class="champ-saisie" id="champ-titre" type="text" placeholder="Titre du morceau">
+
+      <label for="champ-artiste">Artiste</label>
+      <input class="champ-saisie" id="champ-artiste" type="text" placeholder="Nom de l'artiste">
+
+      <label for="champ-danse">Danse</label>
+      <select class="champ-saisie" id="champ-danse">
+        <option value="">-- Choisir --</option>
+      </select>
+      <!-- Options générées automatiquement par script.js -->
+
+      <label for="champ-statut">Statut</label>
+      <select class="champ-saisie" id="champ-statut">
+        <option value="À apprendre">À apprendre</option>
+        <option value="En apprentissage">En apprentissage</option>
+        <option value="Maîtrisé">Maîtrisé</option>
+      </select>
+
+      <button class="bouton-principal" type="submit" id="bouton-soumettre">Ajouter</button>
+      <button class="bouton-secondaire" type="button" id="bouton-annuler-edition" style="display:none;">Annuler</button>
+
+    </form>
+  </div>
+
+</body>
+</html>
