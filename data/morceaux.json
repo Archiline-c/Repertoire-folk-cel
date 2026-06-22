@@ -488,5 +488,12 @@
     "artiste": "",
     "danse": "Danse de l’ours",
     "statut": "À apprendre"
+  },
+  {
+    "id": 71,
+    "titre": "Test PAT",
+    "artiste": "Artiste test",
+    "danse": "Danse de l’ours",
+    "statut": "En apprentissage"
   }
 ]
