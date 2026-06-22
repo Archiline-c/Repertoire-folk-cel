@@ -7,7 +7,7 @@ Application web personnelle pour gérer et visualiser un répertoire de musique 
 - Le partage d'informations (partitions, liens d'écoute) à des musiciens ou amis
 - L'auto-hébergement des données (pas de dépendance à un tiers)
 
-**Créatrice** : Céline (harpiste, répertoire breton/irlandais/français)
+**Appli de** : Céline
 
 ---
 
@@ -25,11 +25,13 @@ Application web personnelle pour gérer et visualiser un répertoire de musique 
 **📍 Consulter l'application** : https://archiline-c.github.io/Repertoire-folk-cel/
 
 L'application est publique en lecture. Vous pouvez :
-- Consulter les 70 morceaux du répertoire
+- Consulter les morceaux renseignés dans le répertoire
 - Filtrer par statut (À apprendre / En apprentissage / Maîtrisé)
 - Filtrer par type de danse
 - Rechercher par titre ou artiste
 - Télécharger les partitions (si disponibles)
+
+En cas de propositions de modifications, écrivez à archiline@protonmail.com
 
 ---
 
@@ -37,7 +39,7 @@ L'application est publique en lecture. Vous pouvez :
 
 ### ✅ Actuelles (v2)
 
-- **Affichage du répertoire** : liste complète des 70 morceaux sous forme de cartes
+- **Affichage du répertoire** : liste des morceaux sous forme de cartes
 - **Filtres combinables** : par statut de progression, par type de danse
 - **Recherche en temps réel** : par titre ou artiste
 - **Gestion complète (CRUD)** : ajout, modification, suppression de morceaux
@@ -45,7 +47,7 @@ L'application est publique en lecture. Vous pouvez :
 - **Responsive** : consultable sur ordinateur et smartphone
 - **Accès sécurisé** : seul le possesseur d'un token GitHub personnel peut modifier les données
 
-### 🔄 En cours de développement
+### 🔄 En cours de développement ou réflexion
 
 - **Liens vers les partitions** : affichage et édition des chemins PDF pour chaque morceau
 - **Liens d'écoute** : références vers des enregistrements (YouTube, The Session, etc.)
@@ -97,13 +99,15 @@ Repertoire-folk-cel/
 
 ## 📚 Historique des versions
 
-### v1 — Prototype codé à la main
+### v1 — Prototype codé à la main - mars 2026
 - Développement progressif et pédagogique
 - HTML/CSS/JS écrit pas à pas pour l'apprentissage
 - Fonctionnalités de base (affichage, filtres simples)
 - Stockage en localStorage (données locales, pas de synchronisation)
 
-### v2 — Version actuelle (générée avec Claude)
+→ n'était pas au point pour le stockage des données (en local uniquement) : architecture revue
+
+### v2 — Version actuelle (générée avec Claude) - juin 2026
 - Refonte complète avec GitHub comme base de données
 - CRUD complet via API GitHub Contents
 - 70 morceaux réels importés depuis CSV
@@ -111,7 +115,7 @@ Repertoire-folk-cel/
 - Responsive design
 - **Environnement de test pour l'apprentissage pédagogique**
 
-### v3 — Objectif futur
+### v3 — Prochaine étape envisagée
 - Reprise du code JavaScript pour une compréhension en profondeur
 - Refactorisation modulaire (séparation logique métier / présentation)
 - Migration vers PocketBase
@@ -138,6 +142,9 @@ Repertoire-folk-cel/
 1. Ouvrir https://archiline-c.github.io/Repertoire-folk-cel/
 2. Utiliser les filtres et la recherche pour explorer les morceaux
 3. Télécharger une partition en cliquant sur le lien (si disponible)
+
+Si les fonctionnalités pdf ne sont pas encore implémentées dans l'appli web, ou si elles dysfonctionnent, se rendre directement dans le dossier "partitions" du dépôt github 'brut' :
+https://github.com/Archiline-c/Repertoire-folk-cel/tree/main/partitions
 
 ### Pour modifier les données (Céline uniquement)
 
@@ -174,7 +181,7 @@ Les versions futures incluront une refonte pédagogique pour consolider cette co
 
 Ce dépôt est personnel, mais les retours et suggestions sont bienvenus. Pour toute question ou proposition :
 - Ouvrir une **issue** sur GitHub
-- Contacter directement Céline
+- Contacter directement Céline : archiline@protonmail.com
 
 ---
 
