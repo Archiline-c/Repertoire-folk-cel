@@ -4,98 +4,112 @@
     "titre": "Andro de Saint-Patrick",
     "artiste": "Trad",
     "danse": "Andro",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/A_St-Patrick.pdf"
   },
   {
     "id": 2,
     "titre": "Andro La Manillère",
     "artiste": "Corbel",
     "danse": "Andro",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/A_Manillère.pdf"
   },
   {
     "id": 3,
     "titre": "Andro à Sylvie",
     "artiste": "",
     "danse": "Andro",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/A_Sylvie.pdf"
   },
   {
     "id": 4,
     "titre": "Andro session",
     "artiste": "Trad breton",
     "danse": "Andro",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/A_session-andro.pdf"
   },
   {
     "id": 5,
     "titre": "Eclys",
     "artiste": "Trad",
     "danse": "Andro",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/A_Eclys.pdf"
   },
   {
     "id": 6,
     "titre": "Bourrée de Marrakech",
     "artiste": "",
     "danse": "Bourrée 2 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/B2_marrakech.pdf"
   },
   {
     "id": 7,
     "titre": "Bourrée de Montfort",
     "artiste": "Blowzabella",
     "danse": "Bourrée 2 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/B2_Bourree-de-Montfort.pdf"
   },
   {
     "id": 8,
     "titre": "Bourrée Aurore Sand",
     "artiste": "Trad",
     "danse": "Bourrée 2 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/B2_aurore_sand.pdf"
   },
   {
     "id": 9,
     "titre": "Il est bien temps",
     "artiste": "Claire Goujon",
     "danse": "Bourrée 2 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/B2_il-est-bien-temps.pdf"
   },
   {
     "id": 10,
     "titre": "Bourrée de Montserrat",
     "artiste": "Duo Absynthe",
     "danse": "Bourrée 2 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 11,
     "titre": "Bourrée à François",
     "artiste": "Trad cantal",
     "danse": "Bourrée 3 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/B3_Bourree-Francois.pdf"
   },
   {
     "id": 12,
     "titre": "Bourrées 3 temps session",
     "artiste": "trad",
     "danse": "Bourrée 3 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/B3_Session.pdf"
   },
   {
     "id": 13,
     "titre": "Tabouret",
     "artiste": "Bargainatt",
     "danse": "Bourrée 3 temps",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 14,
     "titre": "Bal limousine",
     "artiste": "Trad / B.Loffet",
     "danse": "Bal limousine",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/BL_Bal-Limousine.pdf"
   },
   {
     "id": 15,
@@ -110,315 +124,360 @@
     "titre": "Cercle circassien trad",
     "artiste": "trad",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/CC_trad.pdf"
   },
   {
     "id": 17,
     "titre": "Penne",
     "artiste": "Bargainatt",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 18,
     "titre": "Tarentelle",
     "artiste": "Trad italien",
     "danse": "Tarentelle",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/CC_tarentelle.pdf"
   },
   {
     "id": 19,
     "titre": "Zelda",
     "artiste": "Philippe Plard",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/CC_Zelda.pdf"
   },
   {
     "id": 20,
     "titre": "Jump at the Sun",
     "artiste": "John Kirkpatrick",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/CC_Jump-sun.pdf"
   },
   {
     "id": 21,
     "titre": "Fisel",
     "artiste": "Trad",
     "danse": "Fisel",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 22,
     "titre": "Gavotte koun",
     "artiste": "Trad breton",
     "danse": "Gavotte bretonne",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/GA_Koun_95.pdf"
   },
   {
     "id": 23,
     "titre": "Ivoirine",
     "artiste": "Stéphane Milleret",
     "danse": "Gavotte de Grenoble",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/GG_Ivoirine.pdf"
   },
   {
     "id": 24,
     "titre": "Hanter dro Session",
     "artiste": "Trad",
     "danse": "Hanter dro",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/HD_Hanter-dro.pdf"
   },
   {
     "id": 25,
     "titre": "Kesh Jig",
     "artiste": "Trad",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/JI_Kesh.pdf"
   },
   {
     "id": 26,
     "titre": "Cleveland park",
     "artiste": "Ivan Drever",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/JI_Cleveland-Park.pdf"
   },
   {
     "id": 27,
     "titre": "Joy of my life",
     "artiste": "trad",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/JI_Joy-life.pdf"
   },
   {
     "id": 28,
     "titre": "Upstairs with you",
     "artiste": "",
     "danse": "Cercle circassien",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/JI_Upstairs-with-you.pdf"
   },
   {
     "id": 29,
     "titre": "Kost er c’hoat",
     "artiste": "Carré Manchot",
     "danse": "Kost er c’hoat",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 30,
     "titre": "Kost er c’hoat trad",
     "artiste": "Trad breton",
     "danse": "Kost er c’hoat",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 31,
     "titre": "La p’tite fée",
     "artiste": "Sextet à Claques",
     "danse": "Mazurka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 32,
     "titre": "La Tête Ailleurs",
     "artiste": "Elisabeth Barrier",
     "danse": "Mazurka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/MA_tete_ailleurs.pdf"
   },
   {
     "id": 33,
     "titre": "Matin d’automne",
     "artiste": "Rémi Geoffroy",
     "danse": "Mazurka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 34,
     "titre": "Mazurka de la pluie",
     "artiste": "Maiwenn Pellerin",
     "danse": "Mazurka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 35,
     "titre": "Polka du Moulinet",
     "artiste": "",
     "danse": "Polka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 36,
     "titre": "Ou est le décapsuleur",
     "artiste": "Philippe Plard",
     "danse": "Polka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/PO_Decapsuleur.pdf"
   },
   {
     "id": 37,
     "titre": "Polka russe",
     "artiste": "trad",
     "danse": "Polka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 38,
     "titre": "Denis Murphy’s polka",
     "artiste": "Denis Murphy",
     "danse": "Polka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 39,
     "titre": "John Ryan’s Polka",
     "artiste": "John Ryan",
     "danse": "Polka",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 40,
     "titre": "Reel Beatrice",
     "artiste": "Trad",
     "danse": "Reel",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 41,
     "titre": "Rondeau du Blaireau",
     "artiste": "Trad",
     "danse": "Rondeau",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/RO_Blaireau.pdf"
   },
   {
     "id": 42,
     "titre": "Valhermeil",
     "artiste": "Bruno le Tron",
     "danse": "Rondeau",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/RO_Valhermeil.pdf"
   },
   {
     "id": 43,
     "titre": "Amazone",
     "artiste": "Cyrille Brotto",
     "danse": "Ronde du Quercy",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 44,
     "titre": "Adèle Blanc-Sec",
     "artiste": "Frédéric Paris",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/SC_Adèle_Blanc-Sec.pdf"
   },
   {
     "id": 45,
     "titre": "British Swing",
     "artiste": "Stéphane Milleret et Norbert Pignol",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/SC_British_swing.pdf"
   },
   {
     "id": 46,
     "titre": "Esperanza",
     "artiste": "André Minvielle",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 47,
     "titre": "Scottish des regrets",
     "artiste": "Yann-Fanch Perroches",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/SC_Regrets.pdf"
   },
   {
     "id": 48,
     "titre": "Scottish du moulin",
     "artiste": "Bargainatt",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 49,
     "titre": "Scottish Urbaine",
     "artiste": "Grégory Jolivet",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 50,
     "titre": "Kiproko",
     "artiste": "Stéphane Milleret",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/SC_Kiproko.pdf"
   },
   {
     "id": 51,
     "titre": "Boite à bois",
     "artiste": "Nikita Pfister",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/SC_Boite-a-bois.pdf"
   },
   {
     "id": 52,
     "titre": "Sunshine",
     "artiste": "Topette",
     "danse": "Scottish",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/SC_Sunshine_urbaine.pdf"
   },
   {
     "id": 53,
     "titre": "Astrid",
     "artiste": "Trad Scandinave",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Astrid.pdf"
   },
   {
     "id": 54,
     "titre": "Le Détour",
     "artiste": "Rémi Geoffroy",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Le-detour.pdf"
   },
   {
     "id": 55,
     "titre": "Both sides the Tweed",
     "artiste": "Trad",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Both-sides-tweed.pdf"
   },
   {
     "id": 56,
     "titre": "Emma’s Waltz",
     "artiste": "Trad",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 57,
     "titre": "Flat World",
     "artiste": "Andy Cutting",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Flatworld.pdf"
   },
   {
     "id": 58,
     "titre": "Flatbush waltz",
     "artiste": "Andy Statman",
     "danse": "Valse lente",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Flatbush.pdf"
   },
   {
     "id": 59,
     "titre": "In a continental Mood",
     "artiste": "Andy Cutting",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Continental-mood.pdf"
   },
   {
     "id": 60,
     "titre": "La mal Aimable",
     "artiste": "Trad",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 61,
@@ -433,42 +492,48 @@
     "titre": "Origin of the World",
     "artiste": "Dave Shepherd",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Origin-world.pdf"
   },
   {
     "id": 63,
     "titre": "Poules Huppées",
     "artiste": "Gilles Chabenat",
     "danse": "Valse",
-    "statut": "Maîtrisé"
+    "statut": "Maîtrisé",
+    "partition": "partitions/VA_Poules-huppees_trip-to-sky.pdf"
   },
   {
     "id": 64,
     "titre": "Valse d’ambre",
     "artiste": "Bargainatt",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 65,
     "titre": "Looking at a Rainbow through a dirty window",
     "artiste": "Calum Stewart",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VA_Rainbow_dirty-window.pdf"
   },
   {
     "id": 66,
     "titre": "Trip to sky",
     "artiste": "John Whelan",
     "danse": "Valse",
-    "statut": "Maîtrisé"
+    "statut": "Maîtrisé",
+    "partition": ""
   },
   {
     "id": 67,
     "titre": "Valse nouvelle",
     "artiste": "Duo Absynthe",
     "danse": "Valse",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   },
   {
     "id": 68,
@@ -483,13 +548,15 @@
     "titre": "Miz Kerzu",
     "artiste": "Florence Pindivic",
     "danse": "Valse écossaise",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": "partitions/VE_Miz_kerzu.pdf"
   },
   {
     "id": 70,
     "titre": "Danse de l’ours",
     "artiste": "",
     "danse": "Danse de l’ours",
-    "statut": "À apprendre"
+    "statut": "À apprendre",
+    "partition": ""
   }
 ]
