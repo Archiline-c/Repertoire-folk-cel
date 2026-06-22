@@ -16,20 +16,6 @@
     <p>Mon répertoire : c'est parti pour jouer !</p>
   </div>
 
-  <!-- Connexion GitHub : nécessaire uniquement pour ajouter/modifier/supprimer -->
-  <div id="section-connexion">
-    <h2>Connexion GitHub</h2>
-    <p class="texte-aide">
-      Le token n'est jamais enregistré : il reste seulement en mémoire dans
-      cette page, pour la durée de la session. Tu devras le ressaisir si tu
-      recharges la page.
-    </p>
-    <label for="champ-token">Token GitHub (Personal Access Token)</label>
-    <input class="champ-saisie" id="champ-token" type="password" placeholder="ghp_...">
-    <button class="bouton-principal" id="bouton-connexion" type="button">Se connecter</button>
-    <p id="statut-connexion">Non connecté — lecture seule</p>
-  </div>
-
   <!-- Recherche -->
   <div id="section-recherche">
     <input class="champ-saisie" id="champ-recherche" type="text" placeholder="Rechercher un titre ou un artiste...">
@@ -90,6 +76,21 @@
       <button class="bouton-secondaire" type="button" id="bouton-annuler-edition" style="display:none;">Annuler</button>
 
     </form>
+  </div>
+
+  
+  <!-- Connexion GitHub : nécessaire uniquement pour ajouter/modifier/supprimer -->
+  <div id="section-connexion">
+    <h2>Connexion GitHub</h2>
+    <p class="texte-aide">
+      Le token n'est jamais enregistré : il reste seulement en mémoire dans
+      cette page, pour la durée de la session. Tu devras le ressaisir si tu
+      recharges la page.
+    </p>
+    <label for="champ-token">Token GitHub (Personal Access Token)</label>
+    <input class="champ-saisie" id="champ-token" type="password" placeholder="ghp_...">
+    <button class="bouton-principal" id="bouton-connexion" type="button">Se connecter</button>
+    <p id="statut-connexion">Non connecté — lecture seule</p>
   </div>
 
 </body>
