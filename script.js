@@ -53,6 +53,7 @@ var champTitre = document.getElementById("champ-titre");
 var champArtiste = document.getElementById("champ-artiste");
 var champDanse = document.getElementById("champ-danse");
 var champStatut = document.getElementById("champ-statut");
+var champPartition = document.getElementById("champ-partition");
 var titreFormulaire = document.getElementById("titre-formulaire");
 var boutonSoumettre = document.getElementById("bouton-soumettre");
 var boutonAnnulerEdition = document.getElementById("bouton-annuler-edition");
@@ -167,6 +168,19 @@ function afficherListe() {
       divDetails.className = "carte-details";
       divDetails.textContent = morceau.artiste + " — " + morceau.danse + " — " + morceau.statut;
 
+      var divPartition = document.createElement("div");
+      divPartition.className = "carte-partition";
+      if (morceau.partition && morceau.partition !== "") {
+        var lienPartition = document.createElement("a");
+        lienPartition.href = morceau.partition;
+        lienPartition.textContent = "📄 Partition";
+        lienPartition.target = "_blank";
+        divPartition.appendChild(lienPartition);
+      } else {
+        divPartition.textContent = "(pas de partition)";
+        divPartition.className = "carte-partition vide";
+      }
+
       var divActions = document.createElement("div");
       divActions.className = "carte-actions";
 
@@ -185,6 +199,7 @@ function afficherListe() {
 
       li.appendChild(divTitre);
       li.appendChild(divDetails);
+      li.appendChild(divPartition);
       li.appendChild(divActions);
       liste.appendChild(li);
     }
@@ -368,7 +383,8 @@ formulaire.addEventListener("submit", function(event) {
       titre: titre,
       artiste: champArtiste.value.trim(),
       danse: champDanse.value,
-      statut: champStatut.value
+      statut: champStatut.value,
+      partition: champPartition.value.trim()
     };
     morceaux.push(nouveauMorceau);
     enregistrerSurGitHub("Ajout : " + titre);
@@ -382,6 +398,7 @@ formulaire.addEventListener("submit", function(event) {
         morceaux[i].artiste = champArtiste.value.trim();
         morceaux[i].danse = champDanse.value;
         morceaux[i].statut = champStatut.value;
+        morceaux[i].partition = champPartition.value.trim();
         break;
       }
     }
@@ -414,6 +431,8 @@ function creerGestionnaireModifier(id) {
     champArtiste.value = morceau.artiste;
     champDanse.value = morceau.danse;
     champStatut.value = morceau.statut;
+    champPartition.value = morceau.partition || "";
+    
 
     titreFormulaire.textContent = "Modifier un morceau";
     boutonSoumettre.textContent = "Enregistrer";
@@ -433,6 +452,7 @@ function reinitialiserFormulaire() {
   champArtiste.value = "";
   champDanse.value = "";
   champStatut.value = "À apprendre";
+  champPartition.value = "";
 
   titreFormulaire.textContent = "Ajouter un morceau";
   boutonSoumettre.textContent = "Ajouter";
